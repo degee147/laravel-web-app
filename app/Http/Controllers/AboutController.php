@@ -15,5 +15,10 @@ class AboutController extends BaseController{
     public function showWelcome(){
         return view('about');
     }
+    public function showSubject($theSubject){
+        return $theSubject . ' content';
+    }
+
+
 }
 

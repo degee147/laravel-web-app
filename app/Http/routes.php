@@ -25,6 +25,7 @@ Route::get('/start', function () {
 
 Route::get('/index', 'IndexController@showWelcome');
 Route::get('/about', 'AboutController@showWelcome');
+Route::get('/about/{theSubject}', 'AboutController@showSubject');
 Route::get('/project', 'ProjectController@showWelcome');
 Route::get('/timeline', 'TimelineController@showWelcome');
 Route::get('/profile_account', 'ProfileAccountController@showWelcome');
