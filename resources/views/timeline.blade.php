@@ -26,23 +26,23 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+<link href="{{ asset('assets/global/plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css"/>
+<link href="{{ asset('assets/global/plugins/simple-line-icons/simple-line-icons.min.css') }}" rel="stylesheet" type="text/css"/>
+<link href="{{ asset('assets/global/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
+<link href="{{ asset('assets/global/plugins/uniform/css/uniform.default.css') }}" rel="stylesheet" type="text/css"/>
+<link href="{{ asset('assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css') }}" rel="stylesheet" type="text/css"/>
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
 <!-- END PAGE LEVEL PLUGIN STYLES -->
 <!-- BEGIN PAGE STYLES -->
-<link href="../../assets/admin/pages/css/timeline.css" rel="stylesheet" type="text/css"/>
+<link href="{{ asset('assets/admin/pages/css/timeline.css') }}" rel="stylesheet" type="text/css"/>
 <!-- END PAGE STYLES -->
 <!-- BEGIN THEME STYLES -->
 <!-- DOC: To use 'material design' style just load 'components-md.css' stylesheet instead of 'components.css' in the below style tag -->
-<link href="../../assets/global/css/components-md.css" id="style_components" rel="stylesheet" type="text/css"/>
-<link href="../../assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/admin/layout6/css/layout.css" rel="stylesheet" type="text/css"/>
-<link href="../../assets/admin/layout6/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="{{ asset('assets/global/css/components-md.css') }}" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="{{ asset('assets/global/css/plugins.css') }}" rel="stylesheet" type="text/css"/>
+<link href="{{ asset('assets/admin/layout6/css/layout.css') }}" rel="stylesheet" type="text/css"/>
+<link href="{{ asset('assets/admin/layout6/css/custom.css') }}" rel="stylesheet" type="text/css"/>
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
 </head>
@@ -58,7 +58,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="havbar-header">
                 	<!-- BEGIN LOGO -->
                     <a id="index" class="navbar-brand" href="start">
-                        <img src="../../assets/admin/layout6/img/logo.png" alt="Logo">
+                        <img src="{{ asset('assets/admin/layout6/img/logo.png') }}" alt="Logo">
                     </a>
                 	<!-- END LOGO -->
 
@@ -195,7 +195,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	                	<!-- BEGIN USER PROFILE -->
 		                <div class="btn-group-img btn-group">
 							<button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-								<img src="../../assets/admin/layout5/img/avatar1.jpg" alt="">
+								<img src="{{ asset('assets/admin/layout5/img/avatar1.jpg') }}" alt="">
 							</button>
 							<ul class="dropdown-menu-v2" role="menu">
 								<li class="active">
@@ -415,7 +415,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<!-- TIMELINE ITEM -->
 					<div class="timeline-item">
 						<div class="timeline-badge">
-							<img class="timeline-badge-userpic" src="../../assets/admin/pages/media/users/avatar80_1.jpg">
+							<img class="timeline-badge-userpic" src="{{ asset('assets/admin/pages/media/users/avatar80_1.jpg') }}">
 						</div>
 						<div class="timeline-body">
 							<div class="timeline-body-arrow">
@@ -459,7 +459,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<!-- TIMELINE ITEM -->
 					<div class="timeline-item">
 						<div class="timeline-badge">
-							<img class="timeline-badge-userpic" src="../../assets/admin/pages/media/users/avatar80_2.jpg">
+							<img class="timeline-badge-userpic" src="{{ asset('assets/admin/pages/media/users/avatar80_2.jpg') }}">
 						</div>
 						<div class="timeline-body">
 							<div class="timeline-body-arrow">
@@ -475,14 +475,14 @@ License: You must have a valid license purchased only from themeforest(the above
 							<div class="timeline-body-content">
 								<span class="font-grey-cascade">
 								<p>
-									<img class="timeline-body-img pull-right" src="../../assets/admin/pages/media/blog/4.jpg" alt="">
+									<img class="timeline-body-img pull-right" src="{{ asset('assets/admin/pages/media/blog/4.jpg') }}" alt="">
 									Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi. coriander bitterleaf epazote radicchio shallot winter purslane collard.
 								</p>
 								<p>
 									 Coriander bitterleaf epazote radicchio shallot winter purslane collard. Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.
 								</p>
 								<p>
-									<img class="timeline-body-img pull-left" src="../../assets/admin/pages/media/blog/6.jpg" alt=""> Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi radicchio shallot winter purslane collard greens spring onion squash lentil.
+									<img class="timeline-body-img pull-left" src="{{ asset('assets/admin/pages/media/blog/6.jpg') }}" alt=""> Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi radicchio shallot winter purslane collard greens spring onion squash lentil.
 								</p>
 								<p>
 									 Coriander bitterleaf epazote radicchio shallot winter purslane collard. Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.
@@ -495,7 +495,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<!-- TIMELINE ITEM WITH GOOGLE MAP -->
 					<div class="timeline-item">
 						<div class="timeline-badge">
-							<img class="timeline-badge-userpic" src="../../assets/admin/pages/media/users/avatar80_3.jpg">
+							<img class="timeline-badge-userpic" src="{{ asset('assets/admin/pages/media/users/avatar80_3.jpg') }}">
 						</div>
 						<div class="timeline-body">
 							<div class="timeline-body-arrow">
@@ -586,7 +586,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<!-- TIMELINE ITEM -->
 					<div class="timeline-item">
 						<div class="timeline-badge">
-							<img class="timeline-badge-userpic" src="../../assets/admin/pages/media/users/avatar80_1.jpg">
+							<img class="timeline-badge-userpic" src="{{ asset('assets/admin/pages/media/users/avatar80_1.jpg') }}">
 						</div>
 						<div class="timeline-body">
 							<div class="timeline-body-arrow">
@@ -609,7 +609,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<!-- TIMELINE ITEM -->
 					<div class="timeline-item">
 						<div class="timeline-badge">
-							<img class="timeline-badge-userpic img-circle" src="../../assets/admin/pages/media/users/avatar80_2.jpg">
+							<img class="timeline-badge-userpic img-circle" src="{{ asset('assets/admin/pages/media/users/avatar80_2.jpg') }}">
 						</div>
 						<div class="timeline-body">
 							<div class="timeline-body-arrow">
@@ -625,14 +625,14 @@ License: You must have a valid license purchased only from themeforest(the above
 							<div class="timeline-body-content">
 								<span class="font-grey-cascade">
 								<p>
-									<img class="timeline-body-img pull-right" src="../../assets/admin/pages/media/blog/4.jpg" alt="">
+									<img class="timeline-body-img pull-right" src="{{ asset('assets/admin/pages/media/blog/4.jpg') }}" alt="">
 									Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi. coriander bitterleaf epazote radicchio shallot winter purslane collard.
 								</p>
 								<p>
 									 Coriander bitterleaf epazote radicchio shallot winter purslane collard. Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.
 								</p>
 								<p>
-									<img class="timeline-body-img pull-left" src="../../assets/admin/pages/media/blog/6.jpg" alt=""> Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi radicchio shallot winter purslane collard greens spring onion squash lentil.
+									<img class="timeline-body-img pull-left" src="{{ asset('assets/admin/pages/media/blog/6.jpg') }}" alt=""> Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi radicchio shallot winter purslane collard greens spring onion squash lentil.
 								</p>
 								<p>
 									 Coriander bitterleaf epazote radicchio shallot winter purslane collard. Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.
@@ -762,7 +762,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="badge badge-success">8</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar3.jpg" alt="...">
+											<img class="media-object" src="{{ asset('assets/admin/layout/img/avatar3.jpg') }}" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Bob Nilson</h4>
 												<div class="media-heading-sub">
@@ -771,7 +771,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 										</li>
 										<li class="media">
-											<img class="media-object" src="../../assets/admin/layout/img/avatar1.jpg" alt="...">
+											<img class="media-object" src="{{ asset('assets/admin/layout/img/avatar1.jpg') }}" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Nick Larson</h4>
 												<div class="media-heading-sub">
@@ -783,7 +783,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="badge badge-danger">3</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar4.jpg" alt="...">
+											<img class="media-object" src="{{ asset('assets/admin/layout/img/avatar4.jpg') }}" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Deon Hubert</h4>
 												<div class="media-heading-sub">
@@ -792,7 +792,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 										</li>
 										<li class="media">
-											<img class="media-object" src="../../assets/admin/layout/img/avatar2.jpg" alt="...">
+											<img class="media-object" src="{{ asset('assets/admin/layout/img/avatar2.jpg') }}" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Ella Wong</h4>
 												<div class="media-heading-sub">
@@ -807,7 +807,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="badge badge-warning">2</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar6.jpg" alt="...">
+											<img class="media-object" src="{{ asset('assets/admin/layout/img/avatar6.jpg') }}" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Lara Kunis</h4>
 												<div class="media-heading-sub">
@@ -822,7 +822,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="label label-sm label-success">new</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar7.jpg" alt="...">
+											<img class="media-object" src="{{ asset('assets/admin/layout/img/avatar7.jpg') }}" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Ernie Kyllonen</h4>
 												<div class="media-heading-sub">
@@ -832,7 +832,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 										</li>
 										<li class="media">
-											<img class="media-object" src="../../assets/admin/layout/img/avatar8.jpg" alt="...">
+											<img class="media-object" src="{{ asset('assets/admin/layout/img/avatar8.jpg') }}" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Lisa Stone</h4>
 												<div class="media-heading-sub">
@@ -847,7 +847,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="badge badge-success">7</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar9.jpg" alt="...">
+											<img class="media-object" src="{{ asset('assets/admin/layout/img/avatar9.jpg') }}" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Deon Portalatin</h4>
 												<div class="media-heading-sub">
@@ -856,7 +856,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 										</li>
 										<li class="media">
-											<img class="media-object" src="../../assets/admin/layout/img/avatar10.jpg" alt="...">
+											<img class="media-object" src="{{ asset('assets/admin/layout/img/avatar10.jpg') }}" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Irina Savikova</h4>
 												<div class="media-heading-sub">
@@ -868,7 +868,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="media-status">
 												<span class="badge badge-danger">4</span>
 											</div>
-											<img class="media-object" src="../../assets/admin/layout/img/avatar11.jpg" alt="...">
+											<img class="media-object" src="{{ asset('assets/admin/layout/img/avatar11.jpg') }}" alt="...">
 											<div class="media-body">
 												<h4 class="media-heading">Maria Gomez</h4>
 												<div class="media-heading-sub">
@@ -888,7 +888,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										</div>
 										<div class="page-quick-sidebar-chat-user-messages">
 											<div class="post out">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
+												<img class="avatar" alt="" src="{{ asset('assets/admin/layout/img/avatar3.jpg') }}"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Bob Nilson</a>
@@ -898,7 +898,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post in">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar2.jpg"/>
+												<img class="avatar" alt="" src="{{ asset('assets/admin/layout/img/avatar2.jpg') }}"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Ella Wong</a>
@@ -908,7 +908,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post out">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
+												<img class="avatar" alt="" src="{{ asset('assets/admin/layout/img/avatar3.jpg') }}"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Bob Nilson</a>
@@ -918,7 +918,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post in">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar2.jpg"/>
+												<img class="avatar" alt="" src="{{ asset('assets/admin/layout/img/avatar2.jpg') }}"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Ella Wong</a>
@@ -928,7 +928,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post out">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
+												<img class="avatar" alt="" src="{{ asset('assets/admin/layout/img/avatar3.jpg') }}"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Bob Nilson</a>
@@ -938,7 +938,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post in">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar2.jpg"/>
+												<img class="avatar" alt="" src="{{ asset('assets/admin/layout/img/avatar2.jpg') }}"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Ella Wong</a>
@@ -948,7 +948,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post out">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
+												<img class="avatar" alt="" src="{{ asset('assets/admin/layout/img/avatar3.jpg') }}"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Bob Nilson</a>
@@ -958,7 +958,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post in">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar2.jpg"/>
+												<img class="avatar" alt="" src="{{ asset('assets/admin/layout/img/avatar2.jpg') }}"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Ella Wong</a>
@@ -968,7 +968,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 											</div>
 											<div class="post out">
-												<img class="avatar" alt="" src="../../assets/admin/layout/img/avatar3.jpg"/>
+												<img class="avatar" alt="" src="{{ asset('assets/admin/layout/img/avatar3.jpg') }}"/>
 												<div class="message">
 													<span class="arrow"></span>
 													<a href="javascript:;" class="name">Bob Nilson</a>
@@ -1237,25 +1237,25 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 <!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>
-<script src="../../assets/global/plugins/respond.min.js"></script>
-<script src="../../assets/global/plugins/excanvas.min.js"></script> 
+<script src="{{ asset('assets/global/plugins/respond.min.js') }}"></script>
+<script src="{{ asset('assets/global/plugins/excanvas.min.js') }}"></script>
 <![endif]-->
-<script src="../../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
-<script src="../../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="{{ asset('assets/global/plugins/jquery.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/global/plugins/jquery-migrate.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/global/plugins/bootstrap/js/bootstrap.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/global/plugins/jquery.blockui.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/global/plugins/uniform/jquery.uniform.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js') }}" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
 <!-- BEGIN PAGE LEVEL PLUGINS -->
 <!-- END PAGE LEVEL PLUGINS -->
 
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
-<script src="../../assets/global/scripts/metronic.js" type="text/javascript"></script>
-<script src="../../assets/admin/layout6/scripts/layout.js" type="text/javascript"></script>
-<script src="../../assets/admin/layout6/scripts/quick-sidebar.js" type="text/javascript"></script>
+<script src="{{ asset('assets/global/scripts/metronic.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/admin/layout6/scripts/layout.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/admin/layout6/scripts/quick-sidebar.js') }}" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
 jQuery(document).ready(function() {    

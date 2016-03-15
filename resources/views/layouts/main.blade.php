@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 
+<!--
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.4
 Version: 4.0.2
 Author: KeenThemes
@@ -2164,7 +2164,7 @@ License: You must have a valid license purchased only from themeforest(the above
     		<!-- END PAGE CONTENT FIXED -->
 
     		<!-- Copyright BEGIN -->
-			<p class="copyright-v2">2015 © Metronic by keenthemes. 
+			<p class="copyright-v2">2015 © Metronic by keenthemes.
 	 			<a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase Metronic!</a>
 	 		</p>
 			<!-- Copyright END -->
@@ -2735,7 +2735,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src="{{ asset('assets/admin/pages/scripts/tasks.js') }}" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
-jQuery(document).ready(function() {    
+jQuery(document).ready(function() {
    	Metronic.init(); // init metronic core componets
    	Layout.init(); // init layout
     Index.init(); // init index page
