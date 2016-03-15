@@ -19,29 +19,26 @@ Route::get('/', function () {
     return view('start');
 });
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/start', function () {
+    return view('start');
 });
 
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/index', 'IndexController@showWelcome');
+Route::get('/about', 'AboutController@showWelcome');
+Route::get('/project', 'ProjectController@showWelcome');
+Route::get('/timeline', 'TimelineController@showWelcome');
+Route::get('/profile_account', 'ProfileAccountController@showWelcome');
+Route::get('/profile_help', 'ProfileHelpController@showWelcome');
+Route::get('/profile', 'ProfileController@showWelcome');
 
-Route::get('/project', function () {
-    return view('project');
-});
-Route::get('/timeline', function () {
-    return view('timeline');
-});
-Route::get('/profile_account', function () {
-    return view('profile_account');
-});
-Route::get('/profile_help', function () {
-    return view('profile_help');
-});
-Route::get('/profile', function () {
-    return view('profile');
-});
+
+/*
+Route::get('about/directions', array('as' => 'directions', function()
+{
+    $theUrl = URL::route('directions');
+    return "DIRECTIONS go on this URL: $theUrl";
+}));
+*/
 /*
 |--------------------------------------------------------------------------
 | Application Routes
