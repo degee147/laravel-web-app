@@ -7,16 +7,21 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
-class AboutController extends BaseController{
+class AboutController extends BaseController
+{
 
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
 
-    public function showWelcome(){
-        return view('about');
+    public function showWelcome()
+    {
+        return view('about', array('Location' => 'PHC'));
     }
-    public function showSubject($theSubject){
-        return $theSubject . ' content';
+
+    public function showSubject($theSubject)
+    {
+        $theLandmarks = array("Liberation Stadium","Eagle Square","Tinapa","Ogbudu Ranch");
+        return view('about', array('Location' => $theSubject, 'Weather' => 'sunny', 'theLandmarks' => $theLandmarks));
     }
 
 

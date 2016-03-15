@@ -39,6 +39,31 @@
         <div class="container">
             <div class="content">
                 <div class="title">About Content.</div>
+
+                    @if(isset($Location))
+                        <p>Location is {{$Location}} on {{ date('M d, Y') }}</p>
+                    @endif
+
+                    @if(isset($Weather))
+                        @if($Weather == 'sunny')
+                            <p>It's a beautiful day.</p>
+                        @elseif($Weather=='stormy')
+                            <p>Bring your umbrella!</p>
+                        @else
+                            <p>No forecast available.</p>
+                        @endif
+                    @endif
+
+
+                     @if(isset($theLandmarks))
+                        <h3>Some Landmarks:</h3>
+                        <ul style="text-align:left">
+                        @foreach ($theLandmarks as $landmark)
+                          @unless($landmark == 'Tinapa')
+                            <li>{{$landmark}}</li>
+                          @endunless
+                        @endforeach
+                     @endif
             </div>
         </div>
     </body>
