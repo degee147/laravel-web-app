@@ -126,8 +126,8 @@ Users Page
 <!-- END CUSTOM NAV TO SHOW ACTIVE LINK -->
 @section('page-content')
 <div class="page-fixed-main-content">
-	<div class="page-content-wrapper">
-		<div class="page-content">
+	{{--<div class="page-content-wrapper">--}}
+		{{--<div class="page-content">--}}
 			<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
 			<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
@@ -4909,8 +4909,8 @@ Users Page
 				</div>
 			</div>
 			<!-- END PAGE CONTENT-->
-		</div>
-	</div>
+		{{--</div>--}}
+	{{--</div>--}}
 </div>
 @stop
 <!-- END PAGE CONTENT FIXED -->
@@ -4934,10 +4934,10 @@ Users Page
 <script src="{{ asset('assets/admin/pages/scripts/table-advanced.js') }}"></script>
 <script>
 jQuery(document).ready(function() {
-   Metronic.init(); // init metronic core components
+    Metronic.init(); // init metronic core components
     Layout.init(); // init current layout
     Demo.init(); // init demo features
-   TableAdvanced.init();
+    TableAdvanced.init();
 });
 </script>
 @stop
