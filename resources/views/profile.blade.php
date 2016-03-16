@@ -25,12 +25,13 @@ Profile Page
 			<span class="title">Dashboard</span>
 		</a>
 	</li>
-	<li>
-		<a href="index-boxed.html">
-			<i class="icon-layers"></i>
-			<span class="title">Boxed Page Layout</span>
-		</a>
-	</li>
+    <li>
+        <a href="users">
+            <i class="icon-layers"></i>
+            <span class="title">User</span>
+        </a>
+    </li>
+
 	<li class="active">
 		<a href="profile">
 			<i class="icon-user"></i>

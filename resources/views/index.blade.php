@@ -24,9 +24,9 @@ Index Page
 		</a>
 	</li>
 	<li>
-		<a href="index-boxed.html">
+		<a href="users">
 			<i class="icon-layers"></i>
-			<span class="title">Boxed Page Layout</span>
+			<span class="title">User</span>
 		</a>
 	</li>
 	<li>

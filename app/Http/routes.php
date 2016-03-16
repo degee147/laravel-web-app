@@ -31,6 +31,7 @@ Route::get('/timeline', 'TimelineController@showWelcome');
 Route::get('/profile_account', 'ProfileAccountController@showWelcome');
 Route::get('/profile_help', 'ProfileHelpController@showWelcome');
 Route::get('/profile', 'ProfileController@showWelcome');
+Route::get('/users', 'UsersController@showWelcome');
 
 
 /*

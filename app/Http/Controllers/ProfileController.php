@@ -17,7 +17,7 @@ class ProfileController extends BaseController{
     public function showWelcome(){
 
 
-    $users = DB::select('select * from art');
+  //  $users = DB::select('select * from art');
 
 /*
          Schema::create('art', function($newtable)
