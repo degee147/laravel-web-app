@@ -17,9 +17,9 @@ class ProfileController extends BaseController{
     public function showWelcome(){
 
 
-//        $users = DB::select('select * from arts');
+    $users = DB::select('select * from art');
 
-
+/*
          Schema::create('art', function($newtable)
          {
              $newtable->increments('id');
@@ -30,7 +30,7 @@ class ProfileController extends BaseController{
              $newtable->date('exhibition_date');
              $newtable->timestamps();
          });
-
+*/
         return view('profile');
     }
 }
