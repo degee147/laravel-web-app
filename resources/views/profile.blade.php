@@ -161,17 +161,17 @@ Profile Page
 								Overview </a>
 							</li>
 							<li>
-								<a href="profile_account.html">
+								<a href="profile_account">
 									<i class="icon-settings"></i>
 								Account Settings </a>
 							</li>
 							<li>
-								<a href="project" target="_blank">
+								<a href="project" target="">
 									<i class="icon-check"></i>
 								Tasks </a>
 							</li>
 							<li>
-								<a href="profile_help.html">
+								<a href="profile_help">
 									<i class="icon-info"></i>
 								Help </a>
 							</li>
