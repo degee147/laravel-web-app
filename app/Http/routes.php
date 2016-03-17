@@ -23,15 +23,15 @@ Route::get('/start', function () {
     return view('start');
 });
 
-Route::get('/index', 'IndexController@showWelcome');
-Route::get('/about', 'AboutController@showWelcome');
-Route::get('/about/{theSubject}', 'AboutController@showSubject');
-Route::get('/project', 'ProjectController@showWelcome');
-Route::get('/timeline', 'TimelineController@showWelcome');
-Route::get('/profile_account', 'ProfileAccountController@showWelcome');
-Route::get('/profile_help', 'ProfileHelpController@showWelcome');
-Route::get('/profile', 'ProfileController@showWelcome');
-Route::get('/users', 'UsersController@showWelcome');
+Route::get('index', 'IndexController@showWelcome');
+Route::get('about', 'AboutController@showWelcome');
+Route::get('about/{theSubject}', 'AboutController@showSubject');
+Route::get('project', 'ProjectController@showWelcome');
+Route::get('timeline', 'TimelineController@showWelcome');
+Route::get('profile_account', 'ProfileAccountController@showWelcome');
+Route::get('profile_help', 'ProfileHelpController@showWelcome');
+Route::get('profile', 'ProfileController@showWelcome');
+Route::get('users', 'UsersController@showWelcome');
 
 
 /*
