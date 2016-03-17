@@ -15,6 +15,8 @@ class AboutController extends BaseController
 
     public function showWelcome()
     {
+
+
         return view('about', array('Location' => 'PHC'));
     }
 

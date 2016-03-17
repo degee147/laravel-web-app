@@ -159,7 +159,7 @@ Users Page
 			<!-- BEGIN PAGE CONTENT-->
 			<div class="row">
 				<div class="col-md-12">
-s				<!-- BEGIN EXAMPLE TABLE PORTLET-->
+				<!-- BEGIN EXAMPLE TABLE PORTLET-->
 					<div class="portlet box red-intense">
 						<div class="portlet-title">
 							<div class="caption">
