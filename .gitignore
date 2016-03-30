@@ -3,7 +3,6 @@
 /public/storage
 Homestead.yaml
 Homestead.json
-.env
 /bootstrap/compiled.php
 /build/logs
 /build/coverage
@@ -14,3 +13,12 @@ composer.phar
 /_ide_helper.php
 /app/config/packages
 /public/packages
+
+
+# Laravel 5 & Lumen specific
+bootstrap/cache/
+storage/
+.env.*.php
+.env.php
+.env
+.env.example
